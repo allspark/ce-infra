@@ -1602,6 +1602,14 @@ libraries:
       targets:
       - 1.0.0
       type: github
+    tlranges:
+      build_type: none
+      check_file: README.md
+      method: nightlyclone
+      repo: TartanLlama/ranges
+      targets:
+      - trunk
+      type: github
     toml11:
       check_file: toml.hpp
       repo: ToruNiina/toml11
